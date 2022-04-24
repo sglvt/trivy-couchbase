@@ -28,7 +28,7 @@ read -sp "COUCHBASE_PASSWORD=" COUCHBASE_PASSWORD
 export COUCHBASE_USER=${COUCHBASE_USER}
 export COUCHBASE_PASSWORD=${COUCHBASE_PASSWORD}
 
-python cb.py
+python trivy-cb.py
 ```
 
 ## Query
